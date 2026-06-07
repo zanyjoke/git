@@ -1,2 +1,34 @@
-# Claude local settings
-.claude/settings.local.json
+# Claude internal settings
+.claude/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+vendor/
+
+# Environment & secrets
+.env
+.env.*
+*.local
+
+# Build output
+dist/
+build/
+*.pyc
+__pycache__/
